@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="5.0">
+  <display-name>atm2</display-name>
+  <servlet>
+    <description></description>
+    <display-name>AtmServlet</display-name>
+    <servlet-name>AtmServlet</servlet-name>
+    <servlet-class>AtmServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AtmServlet</servlet-name>
+    <url-pattern>/AtmServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CheckBalanceServlet</display-name>
+    <servlet-name>CheckBalanceServlet</servlet-name>
+    <servlet-class>CheckBalanceServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CheckBalanceServlet</servlet-name>
+    <url-pattern>/CheckBalanceServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DeductMoneyServlet</display-name>
+    <servlet-name>DeductMoneyServlet</servlet-name>
+    <servlet-class>DeductMoneyServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeductMoneyServlet</servlet-name>
+    <url-pattern>/DeductMoneyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CheckValidAccServlet</display-name>
+    <servlet-name>CheckValidAccServlet</servlet-name>
+    <servlet-class>CheckValidAccServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CheckValidAccServlet</servlet-name>
+    <url-pattern>/CheckValidAccServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
